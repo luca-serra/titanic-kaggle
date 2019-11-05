@@ -315,6 +315,7 @@ df_test = pd.DataFrame(testdata, columns=['PsngrClass', 'IsCivilian', 'IsMilitar
 
 df_test = df_test.drop(columns=['IsCivilian', 'IsMilitary', 'IsIntellectual', 'IsNoble', 'Name Length'])
 X0_test = preprocessing.scale(df_test) # Normalize the numerical data so that it can be processed by classifiers
+print("Test dataset (first 5 lines) :")
 print(df_test.head())
 
 X1 = pca_decomp(X0, 3)
