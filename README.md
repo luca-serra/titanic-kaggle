@@ -4,7 +4,7 @@ The goal of the project is to apply machine learning techniques in order to pred
 This project constitutes a competition on [Kaggle](https://www.kaggle.com/), a platform that hosts predictive modeling and analytics competitions.
 
 ## Requirements
-You can install the requirements using `pip install -r requirements.txt`
+You can install the required packages using `pip install -r requirements.txt`
 
 ## Data
 The data necessary can be found in the Data folder or on Kaggle website.
